@@ -10,6 +10,6 @@
   }
   else
   {
-    echo "Connected Sucessfully";
+
   }
 ?>

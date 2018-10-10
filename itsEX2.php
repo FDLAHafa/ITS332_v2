@@ -14,7 +14,7 @@
       $sqlrun = mysqli_query($dbconn,$sql1) or die ("Error : ".mysqli_error($dbconn));
       echo "success";
   }
-  mysqli_close();
+  mysqli_close($dbconn);
  ?>
 <html><body>
 <a href="itsEX1.php">go back</a>
